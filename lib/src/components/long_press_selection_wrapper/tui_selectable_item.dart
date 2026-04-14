@@ -6,7 +6,8 @@ enum TUIControlSide {
   end,
 }
 
-/// A widget that, on long press, shifts its child and shows a selection control.
+/// A widget that, on long press, shifts its child and shows a selection
+/// control.
 class TUISelectableItem extends StatelessWidget {
   const TUISelectableItem({
     required this.onSelectionModeChanged,

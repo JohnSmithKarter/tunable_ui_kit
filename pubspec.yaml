@@ -2,6 +2,10 @@ name: tunable_ui_kit
 description: "Tunable UI widgets for Flutter with flexible styling options."
 version: 0.3.0
 
+repository: https://github.com/JohnSmithKarter/tunable_ui_kit
+homepage: https://github.com/JohnSmithKarter/tunable_ui_kit
+issue_tracker: https://github.com/JohnSmithKarter/tunable_ui_kit/issues
+
 environment:
   sdk: ^3.6.0
   flutter: ">=3.27.0"
@@ -12,9 +16,9 @@ dependencies:
 
 dev_dependencies:
   flutter_lints: ^5.0.0
-  lint: ^2.7.0
   flutter_test:
     sdk: flutter
+  lint: ^2.7.0
 
 flutter:
 
