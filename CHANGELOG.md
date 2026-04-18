@@ -13,4 +13,5 @@
 ## 0.3.1
 
 * Added pub.dev topics.
-* Updated README files with GIF previews.
+* Updated README files with GIF previews per component.
+* Added GitHub links to example screens in README files.

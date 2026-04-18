@@ -82,6 +82,9 @@ A widget for selecting multiple items:
 
 <img src="gifs/tui_selectable_item_screen/tui_selectable_item_screen.gif" width="240" alt="TUISelectableItem" />
 
+Example screen:
+[example/lib/usage_examples/tui_selectable_item_screen.dart](https://github.com/JohnSmithKarter/tunable_ui_kit/blob/main/example/lib/usage_examples/tui_selectable_item_screen.dart)
+
 ```dart
 TUISelectableItem(
     onSelectionModeChanged: (value) => setState(() => _selectionMode = value),
@@ -121,6 +124,9 @@ TUISelectableItem(
 A highly customizable dropdown widget for selecting an item:
 
 <img src="gifs/tui_custom_dropdown_widget_screen/tui_custom_dropdown_widget_screen.gif" width="240" alt="TUICustomDropdownWidget" />
+
+Example screen:
+[example/lib/usage_examples/tui_custom_dropdown_widget_screen.dart](https://github.com/JohnSmithKarter/tunable_ui_kit/blob/main/example/lib/usage_examples/tui_custom_dropdown_widget_screen.dart)
 
 ```dart
 final items = <String>[
@@ -201,6 +207,9 @@ TUICustomDropdownWidget<T>(
 A highly customizable popup menu widget for selecting an item:
 
 <img src="gifs/tui_popup_menu_widget_screen/tui_popup_menu_widget_screen.gif" width="240" alt="TUIPopupMenuWidget" />
+
+Example screen:
+[example/lib/usage_examples/tui_popup_menu_widget.dart](https://github.com/JohnSmithKarter/tunable_ui_kit/blob/main/example/lib/usage_examples/tui_popup_menu_widget.dart)
 
 ```dart
 final items = <String>[
