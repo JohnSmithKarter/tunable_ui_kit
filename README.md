@@ -2,6 +2,12 @@
 
 Russian version: [README_RU.md](README_RU.md)
 
+<p>
+  <img src="gifs/tui_selectable_item_screen/tui_selectable_item_screen.gif" width="240" alt="TUISelectableItem" />
+  <img src="gifs/tui_custom_dropdown_widget_screen/tui_custom_dropdown_widget_screen.gif" width="240" alt="TUICustomDropdownWidget" />
+  <img src="gifs/tui_popup_menu_widget_screen/tui_popup_menu_widget_screen.gif" width="240" alt="TUIPopupMenuWidget" />
+</p>
+
 ## A library that contains useful widgets without dependencies on other libraries.
 #### The latest template changes were made on `Flutter version 3.35.7` and `Dart version 3.9.2`
 
@@ -74,6 +80,8 @@ dependencies:
 ### 1 — TUISelectableItem
 A widget for selecting multiple items:
 
+<img src="gifs/tui_selectable_item_screen/tui_selectable_item_screen.gif" width="240" alt="TUISelectableItem" />
+
 ```dart
 TUISelectableItem(
     onSelectionModeChanged: (value) => setState(() => _selectionMode = value),
@@ -89,32 +97,30 @@ TUISelectableItem(
     unselectedWidget: const Icon(Icons.check_box_outline_blank),
     child: YourChildWidget(...),
 );
-```
 
-Parameters:
-
-- **child** — item child widget.
-- **onSelectionModeChanged** — callback invoked on long press; receives the next selection mode value (`!selectionMode`).
-- **selectionMode** — whether selection mode is active.
-- **select** — selection callback (usually toggles selected/unselected).
-- **onTap** — normal tap callback when `selectionMode == false`.
-- **isSelected** — whether the item is selected.
-- **enabled** — enables/disables selection functionality only (when `false`, `onLongPress` is disabled).
-- **animationDuration** — duration of shift/icon switch animations.
-- **selectionColor** — selection control color (optional; affects the default icons via `IconTheme`).
-- **offset** — shift offset when selection mode is active (default is `Offset(40, 0)`).
-- **selectedWidget** — widget shown for the selected state.
-- **unselectedWidget** — widget shown for the unselected state.
-- **padding** — padding around `child`.
-- **controlSide** — which side the selection control appears on and which direction the content shifts (`TUIControlSide.start` / `TUIControlSide.end`).
-- **enableRipple** — enables Material ripple effect (disabled by default).
-- **rippleBorderRadius** — border radius for Material ripple clipping.
-
-<img src="images/tui_selectable_item_screen/tui_selectable_item_screen_1.png" width="250" height="500" alt="TUISelectableItem example 1"/>
-<img src="images/tui_selectable_item_screen/tui_selectable_item_screen_2.png" width="250" height="500" alt="TUISelectableItem example 2"/>
+ Parameters:
+ 
+ - **child** — item child widget.
+ - **onSelectionModeChanged** — callback invoked on long press; receives the next selection mode value (`!selectionMode`).
+ - **selectionMode** — whether selection mode is active.
+ - **select** — selection callback (usually toggles selected/unselected).
+ - **onTap** — normal tap callback when `selectionMode == false`.
+ - **isSelected** — whether the item is selected.
+ - **enabled** — enables/disables selection functionality only (when `false`, `onLongPress` is disabled).
+ - **animationDuration** — duration of shift/icon switch animations.
+ - **selectionColor** — selection control color (optional; affects the default icons via `IconTheme`).
+ - **offset** — shift offset when selection mode is active (default is `Offset(40, 0)`).
+ - **selectedWidget** — widget shown for the selected state.
+ - **unselectedWidget** — widget shown for the unselected state.
+ - **padding** — padding around `child`.
+ - **controlSide** — which side the selection control appears on and which direction the content shifts (`TUIControlSide.start` / `TUIControlSide.end`).
+ - **enableRipple** — enables Material ripple effect (disabled by default).
+ - **rippleBorderRadius** — border radius for Material ripple clipping.
 
 ### 2 — TUICustomDropdownWidget<T>
 A highly customizable dropdown widget for selecting an item:
+
+<img src="gifs/tui_custom_dropdown_widget_screen/tui_custom_dropdown_widget_screen.gif" width="240" alt="TUICustomDropdownWidget" />
 
 ```dart
 final items = <String>[
@@ -132,7 +138,7 @@ TUICustomDropdownWidget<String>(
  selectedItem: _selectedItem,
  title: 'select item',
  onItemSelected: _onItemSelected,
-),
+);
 ```
 
 It also provides plenty of appearance settings:
@@ -191,12 +197,10 @@ TUICustomDropdownWidget<T>(
 ),
 ```
 
-<img src="images/tui_custom_dropdown_widget_screen/tui_custom_dropdown_widget_1.png" width="250" height="500" alt="TUICustomDropdownWidget example 1"/>
-<img src="images/tui_custom_dropdown_widget_screen/tui_custom_dropdown_widget_2.png" width="250" height="500" alt="TUICustomDropdownWidget example 2"/>
-<img src="images/tui_custom_dropdown_widget_screen/tui_custom_dropdown_widget_3.png" width="250" height="500" alt="TUICustomDropdownWidget example 1"/>
-
 ### 3 — TUIPopupMenuWidget<T>
 A highly customizable popup menu widget for selecting an item:
+
+<img src="gifs/tui_popup_menu_widget_screen/tui_popup_menu_widget_screen.gif" width="240" alt="TUIPopupMenuWidget" />
 
 ```dart
 final items = <String>[
@@ -218,7 +222,7 @@ TUIPopupMenuWidget<String>(
  items: items,
  selectedItem: _selectedItem ?? 'select item',
  onSelected: _onSelected,
-),
+);
 ```
 
 It also provides plenty of appearance settings:
@@ -268,8 +272,3 @@ TUIPopupMenuWidget<T>(
    decoration: - Selected item decoration.
  ),
 ),
-```
-
-<img src="images/tui_popup_menu_widget_screen/tui_popup_menu_widget_1.png" width="250" height="500" alt="TUIPopupMenuWidget example 1"/>
-<img src="images/tui_popup_menu_widget_screen/tui_popup_menu_widget_2.png" width="250" height="500" alt="TUIPopupMenuWidget example 2"/>
-<img src="images/tui_popup_menu_widget_screen/tui_popup_menu_widget_3.png" width="250" height="500" alt="TUIPopupMenuWidget example 1"/>

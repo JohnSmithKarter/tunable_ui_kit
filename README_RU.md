@@ -2,6 +2,12 @@
 
 English version: [README.md](README.md)
 
+<p>
+  <img src="gifs/tui_selectable_item_screen/tui_selectable_item_screen.gif" width="240" alt="TUISelectableItem" />
+  <img src="gifs/tui_custom_dropdown_widget_screen/tui_custom_dropdown_widget_screen.gif" width="240" alt="TUICustomDropdownWidget" />
+  <img src="gifs/tui_popup_menu_widget_screen/tui_popup_menu_widget_screen.gif" width="240" alt="TUIPopupMenuWidget" />
+</p>
+
 ## Библиотека, содержащая разные необходимые виджеты, без зависимостей от других библиотек.
 #### Последние изменения шаблона были произведены на `Flutter version 3.35.7` `Dart version 3.9.2`
 
@@ -73,6 +79,8 @@ dependencies:
 ### 1 — TUISelectableItem:
 Виджет для выбора нескольких элементов одновременно:
 
+<img src="gifs/tui_selectable_item_screen/tui_selectable_item_screen.gif" width="240" alt="TUISelectableItem" />
+
 ```dart
 TUISelectableItem(
     onSelectionModeChanged: (value) => setState(() => _selectionMode = value),
@@ -109,12 +117,11 @@ TUISelectableItem(
 - **enableRipple** — включает ripple-эффект Material (по умолчанию выключен).
 - **rippleBorderRadius** — радиус скругления для клиппинга ripple-эффекта.
 
-<img src="images/tui_selectable_item_screen/tui_selectable_item_screen_1.png" width="250" height="500" alt="TUISelectableItem пример 1"/>
-<img src="images/tui_selectable_item_screen/tui_selectable_item_screen_2.png" width="250" height="500" alt="TUISelectableItem пример 2"/>
-
 
 ### 2 — TUICustomDropdownWidget<T\>:
 Виджет - тонко кастомизируемый DropDown для выбора элемента:
+
+<img src="gifs/tui_custom_dropdown_widget_screen/tui_custom_dropdown_widget_screen.gif" width="240" alt="TUICustomDropdownWidget" />
 
 ```dart
  final items = <String>[
@@ -191,13 +198,11 @@ TUICustomDropdownWidget<T>(
 ),
 ```
 
-<img src="images/tui_custom_dropdown_widget_screen/tui_custom_dropdown_widget_1.png" width="250" height="500" alt="TUICustomDropdownWidget пример 1"/>
-<img src="images/tui_custom_dropdown_widget_screen/tui_custom_dropdown_widget_2.png" width="250" height="500" alt="TUICustomDropdownWidget пример 2"/>
-<img src="images/tui_custom_dropdown_widget_screen/tui_custom_dropdown_widget_3.png" width="250" height="500" alt="TUICustomDropdownWidget пример 1"/>
-
 
 ### 3 — TUIPopupMenuWidget<T\>:
 Виджет - тонко кастомизируемое меню для выбора элемента
+
+<img src="gifs/tui_popup_menu_widget_screen/tui_popup_menu_widget_screen.gif" width="240" alt="TUIPopupMenuWidget" />
 
 ```dart
 final items = <String>[
@@ -270,8 +275,3 @@ TUIPopupMenuWidget<T>(
     decoration: - декорация выбранного элемента
   ),
 ),
-```
-
-<img src="images/tui_popup_menu_widget_screen/tui_popup_menu_widget_1.png" width="250" height="500" alt="TUIPopupMenuWidget пример 1"/>
-<img src="images/tui_popup_menu_widget_screen/tui_popup_menu_widget_2.png" width="250" height="500" alt="TUIPopupMenuWidget пример 2"/>
-<img src="images/tui_popup_menu_widget_screen/tui_popup_menu_widget_3.png" width="250" height="500" alt="TUIPopupMenuWidget пример 1"/>

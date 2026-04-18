@@ -1,10 +1,17 @@
 name: tunable_ui_kit
 description: "Tunable UI widgets for Flutter with flexible styling options."
-version: 0.3.0
+version: 0.3.1
 
 repository: https://github.com/JohnSmithKarter/tunable_ui_kit
 homepage: https://github.com/JohnSmithKarter/tunable_ui_kit
 issue_tracker: https://github.com/JohnSmithKarter/tunable_ui_kit/issues
+
+topics:
+  - flutter
+  - ui
+  - widgets
+  - dropdown
+  - popup-menu
 
 environment:
   sdk: ^3.6.0
