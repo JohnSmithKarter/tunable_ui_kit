@@ -1,5 +1,9 @@
 # TUINotifications (Баннер уведомлений)
 
+English version: [notification_banner_doc.md](notification_banner_doc.md)
+
+<img src="assets/notification_banner_screen.gif" width="240" alt="TUINotifications" />
+
 `TUINotifications` — это лёгкая система баннеров уведомлений, построенная поверх Flutter `Overlay`.
 
 Она задумана как один, максимально настраиваемый «snackbar-подобный» баннер:
@@ -194,22 +198,22 @@ TUINotifications.show(
 
 ### Поля стиля
 
-- `backgroundColor`: цвет фона баннера
-- `foregroundColor`: базовый цвет текста и иконок
-- `icon`: ведущая (левая) иконка
-- `iconColor`: переопределение цвета иконки
-- `iconSize`: переопределение размера иконки
-- `borderRadius`: скругление контейнера
-- `boxShadow`: список теней
-- `constraints`: ограничения размеров (min height / max width)
-- `padding`: внутренний padding контента
-- `messageTextStyle`: стиль текста сообщения
-- `maxLines`: максимальное число строк сообщения
-- `overflow`: поведение overflow для текста
-- `actionTextStyle`: стиль текста кнопки действия
-- `actionButtonStyle`: стиль кнопки действия
-- `closeIcon`: иконка закрытия
-- `closeIconColor`: переопределение цвета иконки закрытия
+- **backgroundColor** — цвет фона баннера
+- **foregroundColor** — базовый цвет текста и иконок
+- **icon** — ведущая (левая) иконка
+- **iconColor** — переопределение цвета иконки
+- **iconSize** — переопределение размера иконки
+- **borderRadius** — скругление контейнера
+- **boxShadow** — список теней
+- **constraints** — ограничения размеров (min height / max width)
+- **padding** — внутренний padding контента
+- **messageTextStyle** — стиль текста сообщения
+- **maxLines** — максимальное число строк сообщения
+- **overflow** — поведение overflow для текста
+- **actionTextStyle** — стиль текста кнопки действия
+- **actionButtonStyle** — стиль кнопки действия
+- **closeIcon** — иконка закрытия
+- **closeIconColor** — переопределение цвета иконки закрытия
 
 ## Полная замена UI через builder
 

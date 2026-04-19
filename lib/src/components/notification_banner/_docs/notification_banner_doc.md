@@ -1,6 +1,8 @@
 # TUINotifications (Notification banner)
 
-[Документация на русском](notification_banner_doc_ru.md)
+Russian version: [notification_banner_doc_ru.md](notification_banner_doc_ru.md)
+
+<img src="assets/notification_banner_screen.gif" width="240" alt="TUINotifications" />
 
 `TUINotifications` is a lightweight notification banner system built on top of Flutter `Overlay`.
 
@@ -196,22 +198,22 @@ TUINotifications.show(
 
 ### Style fields
 
-- `backgroundColor`: background color of the banner
-- `foregroundColor`: default foreground color for text and icons
-- `icon`: leading icon
-- `iconColor`: icon color override
-- `iconSize`: icon size override
-- `borderRadius`: border radius for the banner container
-- `boxShadow`: shadow list
-- `constraints`: layout constraints (min height / max width)
-- `padding`: inner content padding
-- `messageTextStyle`: message text style
-- `maxLines`: message max lines
-- `overflow`: message overflow behavior
-- `actionTextStyle`: action label style
-- `actionButtonStyle`: action button style
-- `closeIcon`: close icon
-- `closeIconColor`: close icon color override
+- **backgroundColor** — background color of the banner
+- **foregroundColor** — default foreground color for text and icons
+- **icon** — leading icon
+- **iconColor** — icon color override
+- **iconSize** — icon size override
+- **borderRadius** — border radius for the banner container
+- **boxShadow** — shadow list
+- **constraints** — layout constraints (min height / max width)
+- **padding** — inner content padding
+- **messageTextStyle** — message text style
+- **maxLines** — message max lines
+- **overflow** — message overflow behavior
+- **actionTextStyle** — action label style
+- **actionButtonStyle** — action button style
+- **closeIcon** — close icon
+- **closeIconColor** — close icon color override
 
 ## Full UI override with builder
 

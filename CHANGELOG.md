@@ -1,3 +1,7 @@
+## 0.4.1
+
+* Updated README files with GIF previews per component.
+
 ## 0.4.0
 
 * Added a new widget: TUINotifications — a customizable notification banner based on `Overlay`.
