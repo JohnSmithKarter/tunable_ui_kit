@@ -1,4 +1,5 @@
 import 'package:example/usage_examples/tui_custom_dropdown_widget_screen.dart';
+import 'package:example/usage_examples/tui_notifications_screen.dart';
 import 'package:example/usage_examples/tui_popup_menu_widget.dart';
 import 'package:example/usage_examples/tui_selectable_item_screen.dart';
 import 'package:flutter/material.dart';
@@ -56,6 +57,10 @@ class MyHomePage extends StatelessWidget {
             _Button(
               title: 'TUIPopupMenuWidget example',
               onPressed: () => _push(context, const TUIPopupMenuWidgetScreen()),
+            ),
+            _Button(
+              title: 'TUINotifications example',
+              onPressed: () => _push(context, const TUINotificationsScreen()),
             ),
           ],
         ),
