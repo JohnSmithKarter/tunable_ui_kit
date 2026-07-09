@@ -10,7 +10,7 @@ Russian version: [README_RU.md](README_RU.md)
 </p>
 
 ## A library that contains useful widgets without dependencies on other libraries.
-#### The latest template changes were made on `Flutter version 3.35.7` and `Dart version 3.9.2`
+#### The latest template changes were made on `Flutter version 3.44.4` and `Dart version 3.12.2`
 
 #### <u>The library is designed for iOS and Android, but it can also work on other platforms.</u>
 
