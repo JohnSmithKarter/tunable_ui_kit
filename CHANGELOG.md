@@ -1,3 +1,7 @@
+## 0.5.0
+
+* Added a new widget: TUIToggleSwitch — a highly customizable toggle switch.
+
 ## 0.4.1
 
 * Updated README files with GIF previews per component.
