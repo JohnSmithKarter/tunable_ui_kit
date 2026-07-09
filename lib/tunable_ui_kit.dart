@@ -6,3 +6,5 @@ export 'src/components/long_press_selection_wrapper/tui_selectable_item.dart';
 export 'src/components/notification_banner/tui_notifications.dart';
 export 'src/components/popup_menu_widget/tui_popup_menu_styles.dart';
 export 'src/components/popup_menu_widget/tui_popup_menu_widget.dart';
+export 'src/components/toggle_switch/tui_toggle_switch.dart';
+export 'src/components/toggle_switch/tui_toggle_switch_style.dart';

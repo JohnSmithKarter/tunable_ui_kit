@@ -7,6 +7,7 @@ Russian version: [README_RU.md](README_RU.md)
   <img src="lib/src/components/custom_drop_down_widget/_docs/assets/tui_custom_dropdown_widget_screen.gif" width="240" alt="TUICustomDropdownWidget" />
   <img src="lib/src/components/popup_menu_widget/_docs/assets/tui_popup_menu_widget_screen.gif" width="240" alt="TUIPopupMenuWidget" />
   <img src="lib/src/components/notification_banner/_docs/assets/notification_banner_screen.gif" width="240" alt="TUINotifications" />
+  <img src="lib/src/components/toggle_switch/_docs/assets/tui_toggle_switch_screen.gif" width="240" alt="TUIToggleSwitch" />
 </p>
 
 ## A library that contains useful widgets without dependencies on other libraries.
@@ -98,3 +99,15 @@ Docs:
 
 Example:
 [example/lib/usage_examples/tui_notifications_screen.dart](https://github.com/JohnSmithKarter/tunable_ui_kit/blob/main/example/lib/usage_examples/tui_notifications_screen.dart)
+
+### TUIToggleSwitch
+
+A highly customizable toggle switch widget for boolean state selection.
+
+<img src="lib/src/components/toggle_switch/_docs/assets/tui_toggle_switch_screen.gif" width="240" alt="TUIToggleSwitch" />
+
+Docs:
+[lib/src/components/toggle_switch/_docs/tui_toggle_switch_screen_doc.md](lib/src/components/toggle_switch/_docs/tui_toggle_switch_screen_doc.md)
+
+Example:
+[example/lib/usage_examples/tui_toggle_switch_screen.dart](https://github.com/JohnSmithKarter/tunable_ui_kit/blob/main/example/lib/usage_examples/tui_toggle_switch_screen.dart)
